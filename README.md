@@ -33,7 +33,7 @@
     
     - [数据库](#数据库)
     
-    - [Java web核心技术](#Java web)
+    - [Javaweb核心技术](#Javaweb)
     
     - [前端基础](#前端)
     
