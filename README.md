@@ -18,7 +18,7 @@
 |       网络编程        |                TCP、UDP协议了解，Socket编程等                |             以服务器学习基础，完成数据的远程传输             | 2020/8/4  | 2020/8/5  |
 |        数据库         |                    Oracle基础、SQL 语法等                    |             用于对交互过程中数据进行存储或者展示             | 2020/8/6  | 2020/8/12 |
 |    Javaweb核心技术    |        Servlet、Request、Response、Cookie和Session等         | 是高级web框架学习的必备课程，后期学习的web框架、服务底层都是基于此 | 2020/8/13 | 2020/8/19 |
-|       前段基础        |                JavaScript/jquery/ html5/css等                |                    所有前沿前端框架的基础                    | 2020/8/20 | 2020/8/26 |
+|       前端基础        |                JavaScript/jquery/ html5/css等                |                    所有前沿前端框架的基础                    | 2020/8/20 | 2020/8/26 |
 
 
 
@@ -59,5 +59,5 @@
 ## 参考
 
 - [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
-    
+  
 
