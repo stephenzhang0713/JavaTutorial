@@ -79,7 +79,7 @@ public class Hello {
 ```java
 public class Hello {	// 类名是Hello
   // ...
-	// class定义结束
+  // class定义结束
 }
 ```
 
