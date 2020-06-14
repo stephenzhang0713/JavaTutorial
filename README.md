@@ -24,9 +24,9 @@
 
 ## 目录
 
-- [Java](#java)
+- [Java](docs/java)
   
-    - [基本语法](docs/java/Java基础知识.md)
+    - **[基本语法](docs/java/Java基础知识.md)**
     - [面向对象编程](#oop)
     - [泛型/容器（集合框架）](#泛型/容器)
     - [I/O](#I/O)
