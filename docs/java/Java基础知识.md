@@ -1,16 +1,19 @@
-- [第一个Java程序](#第一个Java程序)
-- Java程序基本结构
-- 变量和数据类型
-- 整数运算
+- [1.Java 基础语法]()
+  - [1.1.第一个Java程序](#1.1.第一个Java程序)
+  - [1.2.Java程序基本结构](#1.2 Java程序基本结构)
+  - 变量和数据类型
+  - 整数运算
 
-### 第一个Java程序
+## 1.Java 基础语法
+
+### 1.1 第一个Java程序
 
 打开文本编辑器，输入以下代码：
 
 ```java
 public class Hello {
-	public static void main(String[] args) {
-		System.out.println("Hello, world!");
+  public static void main(String[] args) {
+    System.out.println("Hello, world!");
 	}
 }
 ```
@@ -49,5 +52,57 @@ Java规定，某个类定义的`public static void main(String[] args)`是Java�
 
 最后，当我们把代码保存为文件时，文件名必须是`Hello.java`，而且文件名也要注意大小写，因为要和我们定义的类名`Hello`完全保持一致。
 
+##  1.2 Java程序基本结构
 
+我们先剖析一个完整的Java程序，它的基本结构是什么：
 
+```java
+/**
+ * @Author: zhanghan
+ * @Date: 2020/6/14 16:17
+ * @Description: 可以用来自动创建文档的注释
+ */
+public class Hello {
+	public static void main(String[] args) {
+		// 向屏幕输出文本:
+		System.out.println("Hello, world!");
+		/* 多行注释开始
+        注释内容
+        注释结束 */
+	}
+	// class定义结束
+}
+```
+
+因为Java是面向对象的语言，一个程序的基本单位就是`class`，`class`是关键字，这里定义的`class`名字就是`Hello`：
+
+```java
+public class Hello {	// 类名是Hello
+  // ...
+	// class定义结束
+}
+```
+
+类名要求：
+
+- 类名必须以英文字母开头，后接字母，数字和下划线的组合
+- 习惯以大写字母开头
+
+要注意遵守命名习惯，好的类命名：
+
+- Hello
+- NoteBook
+- VRPlayer
+
+不好的类命名：
+
+- hello
+- Good123
+- Note_Book
+- _World
+
+注意到`public`是访问修饰符，表示该`class`是公开的。
+
+不写`public`，也能正确编译，但是这个类将无法从命令行执行。
+
+在`class`内部，可以定义若干方法（method）：
