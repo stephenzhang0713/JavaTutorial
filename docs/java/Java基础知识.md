@@ -12,8 +12,8 @@
 
 ```java
 public class Hello {
-  public static void main(String[] args) {
-    System.out.println("Hello, world!");
+	public static void main(String[] args) {
+		System.out.println("Hello, world!");
 	}
 }
 ```
@@ -32,7 +32,7 @@ public class Hello {
 
 ```java
 public static void main(String[] args) {
-        ...
+	...
 }
 ```
 
@@ -64,9 +64,9 @@ Java规定，某个类定义的`public static void main(String[] args)`是Java�
  */
 public class Hello {
 	public static void main(String[] args) {
-		// 向屏幕输出文本:
-		System.out.println("Hello, world!");
-		/* 多行注释开始
+	// 向屏幕输出文本:
+	System.out.println("Hello, world!");
+	/* 多行注释开始
         注释内容
         注释结束 */
 	}
